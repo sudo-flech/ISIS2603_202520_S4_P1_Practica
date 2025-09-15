@@ -6,5 +6,6 @@ import lombok.Data;
 @Data
 @Entity
 public class UbicacionBodegaEntity extends BaseEntity{
+    private Integer pesoMaximo;
     
 }

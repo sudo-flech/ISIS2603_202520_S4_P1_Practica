@@ -6,5 +6,9 @@ import lombok.Data;
 @Data
 @Entity
 public class MercanciaEntity extends BaseEntity{
+    private String nombre;
+    private String descripcion;
+    private Double peso;
+    
 
 }
